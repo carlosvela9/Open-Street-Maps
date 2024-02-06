@@ -1,2 +1,2 @@
 # Open-Street-Maps
-hi
+The application portion of this project is to write a console-based C++ program to input a campus map (e.g. UIC’s East campus) and navigate two people at two different buildings to a "good" building to meet via footways. I built the underlying graph, input person 1's building and person 2's building from the user, find a "good" building for the two people to meet, and then use Dijkstra’s algorithm twice to find the shortest weighted path for both people to the destination building. This is repeated until the user enters # for person 1's building.
